@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lSQ-wY-une">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bronze-->
+        <scene sceneID="1qi-8X-3Sh">
+            <objects>
+                <viewController id="lSQ-wY-une" customClass="Bronze" customModule="Switch_Color_App" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Fx-lQ-66P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFT-6m-bIK">
+                                <rect key="frame" x="119" y="309" width="137" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.37647058820000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Switch Color">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchColorButtonPressed:" destination="lSQ-wY-une" eventType="touchUpInside" id="Mn3-2n-7ka"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ZlF-Hb-lkm"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="4Fx-lQ-66P" id="JHb-xN-1Yb"/>
+                        <outlet property="switchColorButton" destination="aFT-6m-bIK" id="iEM-k5-wbd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pms-te-PtM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-258" y="-8"/>
+        </scene>
+        <!--Silver-->
+        <scene sceneID="9Gw-fz-hwI">
+            <objects>
+                <viewController id="ClA-nl-3cR" customClass="Silver" customModule="Switch_Color_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bJ6-Ke-KP0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03x-UM-3Ke">
+                                <rect key="frame" x="119" y="309" width="137" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.37647058820000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Switch Color">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchColorButtonPressed:" destination="ClA-nl-3cR" eventType="touchUpInside" id="npq-9L-Xrd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ixW-71-KIk"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="bJ6-Ke-KP0" id="eqx-wr-0K6"/>
+                        <outlet property="switchColorButton" destination="03x-UM-3Ke" id="QwW-4d-7LE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8wa-Xc-JXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-258" y="684"/>
+        </scene>
+        <!--Gold-->
+        <scene sceneID="xmv-1Z-L0L">
+            <objects>
+                <viewController id="G9K-oZ-B6N" customClass="Gold" customModule="Switch_Color_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sRn-Iw-yNO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRa-MH-rfg">
+                                <rect key="frame" x="119" y="309" width="137" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Switch Color">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchColorButtonPressed:" destination="G9K-oZ-B6N" eventType="touchUpInside" id="dwl-g9-9eN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                        <viewLayoutGuide key="safeArea" id="adi-az-Jkv"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="sRn-Iw-yNO" id="Tiz-a6-sVl"/>
+                        <outlet property="switchColorButton" destination="ZRa-MH-rfg" id="6Lz-6f-zhv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o7i-im-LIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="687" y="345"/>
+        </scene>
+    </scenes>
+</document>

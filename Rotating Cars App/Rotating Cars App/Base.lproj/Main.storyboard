@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="F5H-LD-GP8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bronze-->
+        <scene sceneID="CE1-n2-jnc">
+            <objects>
+                <viewController id="F5H-LD-GP8" customClass="Bronze" customModule="Rotating_Cars_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A2V-Kv-sVc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGu-L8-htL">
+                                <rect key="frame" x="67" y="569" width="240" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.37647058820000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Rotate Cars">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onRotateCarsButtonPressed:" destination="F5H-LD-GP8" eventType="touchUpInside" id="Ngy-KK-8Li"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-1" translatesAutoresizingMaskIntoConstraints="NO" id="BX5-F9-z3z">
+                                <rect key="frame" x="77" y="31" width="220" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-2" translatesAutoresizingMaskIntoConstraints="NO" id="bJa-6S-zUX">
+                                <rect key="frame" x="77" y="155" width="220" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-3" translatesAutoresizingMaskIntoConstraints="NO" id="606-zH-Crs">
+                                <rect key="frame" x="77" y="279" width="220" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-4" translatesAutoresizingMaskIntoConstraints="NO" id="SiD-EQ-fFa">
+                                <rect key="frame" x="77" y="403" width="220" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="SJn-2v-6M5"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstImageView" destination="BX5-F9-z3z" id="CvR-FO-Kxq"/>
+                        <outlet property="fourthImageView" destination="SiD-EQ-fFa" id="yi6-4L-qQj"/>
+                        <outlet property="rotateCarsButton" destination="XGu-L8-htL" id="aXI-13-YH2"/>
+                        <outlet property="secondImageView" destination="bJa-6S-zUX" id="oqC-oc-QeE"/>
+                        <outlet property="thirdImageView" destination="606-zH-Crs" id="FIX-Wh-Xte"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3or-kE-avz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="22"/>
+        </scene>
+        <!--Silver-->
+        <scene sceneID="klY-v5-dWp">
+            <objects>
+                <viewController id="1mx-oy-A9Q" customClass="Silver" customModule="Rotating_Cars_App" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H3d-kA-dZ0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-1" translatesAutoresizingMaskIntoConstraints="NO" id="eXa-s2-5sM">
+                                <rect key="frame" x="67" y="43" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-2" translatesAutoresizingMaskIntoConstraints="NO" id="qxx-Oj-WPX">
+                                <rect key="frame" x="67" y="189" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-3" translatesAutoresizingMaskIntoConstraints="NO" id="QBz-Gt-waw">
+                                <rect key="frame" x="67" y="336" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3H-Ka-GNp">
+                                <rect key="frame" x="67" y="579" width="240" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.37647058820000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Rotate Cars Down">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onRotateCarsDownButtonPressed:" destination="1mx-oy-A9Q" eventType="touchUpInside" id="YYn-oW-Y83"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1p-bq-NBW">
+                                <rect key="frame" x="67" y="495" width="240" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.37647058820000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Rotate Cars Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onRotateCarsUpButtonPressed:" destination="1mx-oy-A9Q" eventType="touchUpInside" id="afe-24-xNw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8q8-Ay-Zhb"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomImageView" destination="QBz-Gt-waw" id="cRW-gb-WYc"/>
+                        <outlet property="middleImageView" destination="qxx-Oj-WPX" id="4uj-aG-TRH"/>
+                        <outlet property="rotateCarsDownButton" destination="H3H-Ka-GNp" id="zn0-NS-Rte"/>
+                        <outlet property="rotateCarsUpButton" destination="V1p-bq-NBW" id="fhJ-KR-dJ6"/>
+                        <outlet property="topImageView" destination="eXa-s2-5sM" id="f30-yb-i0g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r5Z-XZ-NmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="70" y="716"/>
+        </scene>
+        <!--Gold-->
+        <scene sceneID="Ilt-sD-aec">
+            <objects>
+                <viewController id="TVk-RT-CS8" customClass="Gold" customModule="Rotating_Cars_App" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lcu-Yv-bUZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcz-xB-q65">
+                                <rect key="frame" x="0.0" y="40" width="375" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-1" translatesAutoresizingMaskIntoConstraints="NO" id="8HL-WR-x4I">
+                                <rect key="frame" x="67" y="170" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-2" translatesAutoresizingMaskIntoConstraints="NO" id="4kd-EE-pWK">
+                                <rect key="frame" x="67" y="316" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car-3" translatesAutoresizingMaskIntoConstraints="NO" id="pd6-OG-fB2">
+                                <rect key="frame" x="67" y="463" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="SJ0-0w-1kM"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomImageView" destination="pd6-OG-fB2" id="ttB-xk-7x4"/>
+                        <outlet property="middleImageView" destination="4kd-EE-pWK" id="2UF-bF-U7Q"/>
+                        <outlet property="timerLabel" destination="lcz-xB-q65" id="2Dz-ON-kMz"/>
+                        <outlet property="topImageView" destination="8HL-WR-x4I" id="lct-6R-6Gi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WwH-Tv-Muh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="846" y="380"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car-1" width="136" height="52"/>
+        <image name="car-2" width="150" height="107"/>
+        <image name="car-3" width="116" height="69"/>
+        <image name="car-4" width="640" height="360"/>
+    </resources>
+</document>

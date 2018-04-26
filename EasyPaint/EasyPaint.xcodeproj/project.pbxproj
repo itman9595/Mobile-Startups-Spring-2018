@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3530D72091F813007857FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3530D62091F813007857FF /* AppDelegate.swift */; };
+		BE3530D92091F813007857FF /* Bronze.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3530D82091F813007857FF /* Bronze.swift */; };
+		BE3530DC2091F813007857FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3530DA2091F813007857FF /* Main.storyboard */; };
+		BE3530DE2091F813007857FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3530DD2091F813007857FF /* Assets.xcassets */; };
+		BE3530E12091F813007857FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3530DF2091F813007857FF /* LaunchScreen.storyboard */; };
+		BE3530EC2091F813007857FF /* EasyPaintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3530EB2091F813007857FF /* EasyPaintTests.swift */; };
+		BE3530F72091F813007857FF /* EasyPaintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3530F62091F813007857FF /* EasyPaintUITests.swift */; };
+		BE35310720920E1C007857FF /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35310620920E1C007857FF /* ColorPickerViewController.swift */; };
+		BE35310920920EB0007857FF /* colorPalette.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE35310820920EB0007857FF /* colorPalette.plist */; };
+		BE35310B20922175007857FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35310A20922175007857FF /* ViewController.swift */; };
+		BE35310D20922AD6007857FF /* Silver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35310C20922AD6007857FF /* Silver.swift */; };
+		BE35310F20922AE0007857FF /* Gold.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35310E20922AE0007857FF /* Gold.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE3530E82091F813007857FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3530CB2091F813007857FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3530D22091F813007857FF;
+			remoteInfo = EasyPaint;
+		};
+		BE3530F32091F813007857FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3530CB2091F813007857FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3530D22091F813007857FF;
+			remoteInfo = EasyPaint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE3530D32091F813007857FF /* EasyPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3530D62091F813007857FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE3530D82091F813007857FF /* Bronze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bronze.swift; sourceTree = "<group>"; };
+		BE3530DB2091F813007857FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE3530DD2091F813007857FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3530E02091F813007857FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE3530E22091F813007857FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3530E72091F813007857FF /* EasyPaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3530EB2091F813007857FF /* EasyPaintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyPaintTests.swift; sourceTree = "<group>"; };
+		BE3530ED2091F813007857FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3530F22091F813007857FF /* EasyPaintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPaintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3530F62091F813007857FF /* EasyPaintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyPaintUITests.swift; sourceTree = "<group>"; };
+		BE3530F82091F813007857FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE35310620920E1C007857FF /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		BE35310820920EB0007857FF /* colorPalette.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colorPalette.plist; sourceTree = "<group>"; };
+		BE35310A20922175007857FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE35310C20922AD6007857FF /* Silver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silver.swift; sourceTree = "<group>"; };
+		BE35310E20922AE0007857FF /* Gold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gold.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3530D02091F813007857FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3530E42091F813007857FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3530EF2091F813007857FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE3530CA2091F813007857FF = {
+			isa = PBXGroup;
+			children = (
+				BE3530D52091F813007857FF /* EasyPaint */,
+				BE3530EA2091F813007857FF /* EasyPaintTests */,
+				BE3530F52091F813007857FF /* EasyPaintUITests */,
+				BE3530D42091F813007857FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3530D42091F813007857FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3530D32091F813007857FF /* EasyPaint.app */,
+				BE3530E72091F813007857FF /* EasyPaintTests.xctest */,
+				BE3530F22091F813007857FF /* EasyPaintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3530D52091F813007857FF /* EasyPaint */ = {
+			isa = PBXGroup;
+			children = (
+				BE35310820920EB0007857FF /* colorPalette.plist */,
+				BE3530D62091F813007857FF /* AppDelegate.swift */,
+				BE35310A20922175007857FF /* ViewController.swift */,
+				BE3530D82091F813007857FF /* Bronze.swift */,
+				BE35310C20922AD6007857FF /* Silver.swift */,
+				BE35310E20922AE0007857FF /* Gold.swift */,
+				BE3530DA2091F813007857FF /* Main.storyboard */,
+				BE3530DD2091F813007857FF /* Assets.xcassets */,
+				BE3530DF2091F813007857FF /* LaunchScreen.storyboard */,
+				BE3530E22091F813007857FF /* Info.plist */,
+				BE35310620920E1C007857FF /* ColorPickerViewController.swift */,
+			);
+			path = EasyPaint;
+			sourceTree = "<group>";
+		};
+		BE3530EA2091F813007857FF /* EasyPaintTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3530EB2091F813007857FF /* EasyPaintTests.swift */,
+				BE3530ED2091F813007857FF /* Info.plist */,
+			);
+			path = EasyPaintTests;
+			sourceTree = "<group>";
+		};
+		BE3530F52091F813007857FF /* EasyPaintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3530F62091F813007857FF /* EasyPaintUITests.swift */,
+				BE3530F82091F813007857FF /* Info.plist */,
+			);
+			path = EasyPaintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3530D22091F813007857FF /* EasyPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3530FB2091F813007857FF /* Build configuration list for PBXNativeTarget "EasyPaint" */;
+			buildPhases = (
+				BE3530CF2091F813007857FF /* Sources */,
+				BE3530D02091F813007857FF /* Frameworks */,
+				BE3530D12091F813007857FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPaint;
+			productName = EasyPaint;
+			productReference = BE3530D32091F813007857FF /* EasyPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE3530E62091F813007857FF /* EasyPaintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3530FE2091F813007857FF /* Build configuration list for PBXNativeTarget "EasyPaintTests" */;
+			buildPhases = (
+				BE3530E32091F813007857FF /* Sources */,
+				BE3530E42091F813007857FF /* Frameworks */,
+				BE3530E52091F813007857FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3530E92091F813007857FF /* PBXTargetDependency */,
+			);
+			name = EasyPaintTests;
+			productName = EasyPaintTests;
+			productReference = BE3530E72091F813007857FF /* EasyPaintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE3530F12091F813007857FF /* EasyPaintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3531012091F813007857FF /* Build configuration list for PBXNativeTarget "EasyPaintUITests" */;
+			buildPhases = (
+				BE3530EE2091F813007857FF /* Sources */,
+				BE3530EF2091F813007857FF /* Frameworks */,
+				BE3530F02091F813007857FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3530F42091F813007857FF /* PBXTargetDependency */,
+			);
+			name = EasyPaintUITests;
+			productName = EasyPaintUITests;
+			productReference = BE3530F22091F813007857FF /* EasyPaintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3530CB2091F813007857FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Quellebis;
+				TargetAttributes = {
+					BE3530D22091F813007857FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BE3530E62091F813007857FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE3530D22091F813007857FF;
+					};
+					BE3530F12091F813007857FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE3530D22091F813007857FF;
+					};
+				};
+			};
+			buildConfigurationList = BE3530CE2091F813007857FF /* Build configuration list for PBXProject "EasyPaint" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3530CA2091F813007857FF;
+			productRefGroup = BE3530D42091F813007857FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3530D22091F813007857FF /* EasyPaint */,
+				BE3530E62091F813007857FF /* EasyPaintTests */,
+				BE3530F12091F813007857FF /* EasyPaintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3530D12091F813007857FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3530E12091F813007857FF /* LaunchScreen.storyboard in Resources */,
+				BE3530DE2091F813007857FF /* Assets.xcassets in Resources */,
+				BE35310920920EB0007857FF /* colorPalette.plist in Resources */,
+				BE3530DC2091F813007857FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3530E52091F813007857FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3530F02091F813007857FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3530CF2091F813007857FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3530D92091F813007857FF /* Bronze.swift in Sources */,
+				BE35310D20922AD6007857FF /* Silver.swift in Sources */,
+				BE3530D72091F813007857FF /* AppDelegate.swift in Sources */,
+				BE35310F20922AE0007857FF /* Gold.swift in Sources */,
+				BE35310B20922175007857FF /* ViewController.swift in Sources */,
+				BE35310720920E1C007857FF /* ColorPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3530E32091F813007857FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3530EC2091F813007857FF /* EasyPaintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3530EE2091F813007857FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3530F72091F813007857FF /* EasyPaintUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE3530E92091F813007857FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3530D22091F813007857FF /* EasyPaint */;
+			targetProxy = BE3530E82091F813007857FF /* PBXContainerItemProxy */;
+		};
+		BE3530F42091F813007857FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3530D22091F813007857FF /* EasyPaint */;
+			targetProxy = BE3530F32091F813007857FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE3530DA2091F813007857FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3530DB2091F813007857FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE3530DF2091F813007857FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3530E02091F813007857FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE3530F92091F813007857FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE3530FA2091F813007857FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3530FC2091F813007857FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36M7YT83S;
+				INFOPLIST_FILE = EasyPaint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quellebis.EasyPaint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE3530FD2091F813007857FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36M7YT83S;
+				INFOPLIST_FILE = EasyPaint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quellebis.EasyPaint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE3530FF2091F813007857FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36M7YT83S;
+				INFOPLIST_FILE = EasyPaintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quellebis.EasyPaintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPaint.app/EasyPaint";
+			};
+			name = Debug;
+		};
+		BE3531002091F813007857FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36M7YT83S;
+				INFOPLIST_FILE = EasyPaintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quellebis.EasyPaintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPaint.app/EasyPaint";
+			};
+			name = Release;
+		};
+		BE3531022091F813007857FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36M7YT83S;
+				INFOPLIST_FILE = EasyPaintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quellebis.EasyPaintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyPaint;
+			};
+			name = Debug;
+		};
+		BE3531032091F813007857FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36M7YT83S;
+				INFOPLIST_FILE = EasyPaintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quellebis.EasyPaintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyPaint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3530CE2091F813007857FF /* Build configuration list for PBXProject "EasyPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3530F92091F813007857FF /* Debug */,
+				BE3530FA2091F813007857FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3530FB2091F813007857FF /* Build configuration list for PBXNativeTarget "EasyPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3530FC2091F813007857FF /* Debug */,
+				BE3530FD2091F813007857FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3530FE2091F813007857FF /* Build configuration list for PBXNativeTarget "EasyPaintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3530FF2091F813007857FF /* Debug */,
+				BE3531002091F813007857FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3531012091F813007857FF /* Build configuration list for PBXNativeTarget "EasyPaintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3531022091F813007857FF /* Debug */,
+				BE3531032091F813007857FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3530CB2091F813007857FF /* Project object */;
+}

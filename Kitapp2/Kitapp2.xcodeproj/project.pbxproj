@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2222D49207B15AC00C8D519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2222D48207B15AC00C8D519 /* AppDelegate.swift */; };
+		B2222D4B207B15AC00C8D519 /* Bronze.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2222D4A207B15AC00C8D519 /* Bronze.swift */; };
+		B2222D4E207B15AC00C8D519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2222D4C207B15AC00C8D519 /* Main.storyboard */; };
+		B2222D50207B15AC00C8D519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2222D4F207B15AC00C8D519 /* Assets.xcassets */; };
+		B2222D53207B15AC00C8D519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2222D51207B15AC00C8D519 /* LaunchScreen.storyboard */; };
+		B22F2B85207BADC9006B8595 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F2B84207BADC9006B8595 /* BookDetailsViewController.swift */; };
+		B22F2B87207BAE67006B8595 /* Silver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F2B86207BAE67006B8595 /* Silver.swift */; };
+		B250832B20829CB40021CBE5 /* Gold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B250832A20829CB40021CBE5 /* Gold.swift */; };
+		B27A7998207B53AB000445E2 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27A7997207B53AB000445E2 /* BookTableViewCell.swift */; };
+		F582E630B9874DB7940C8D4F /* Pods_Kitapp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF1E6312828748F4E45B983 /* Pods_Kitapp2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BF1E6312828748F4E45B983 /* Pods_Kitapp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitapp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F073F5572EE78E71AE62FF1 /* Pods-Kitapp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitapp2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kitapp2/Pods-Kitapp2.release.xcconfig"; sourceTree = "<group>"; };
+		B0E285057BABBC7076EDC086 /* Pods-Kitapp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitapp2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kitapp2/Pods-Kitapp2.debug.xcconfig"; sourceTree = "<group>"; };
+		B2222D45207B15AC00C8D519 /* Kitapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2222D48207B15AC00C8D519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2222D4A207B15AC00C8D519 /* Bronze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bronze.swift; sourceTree = "<group>"; };
+		B2222D4D207B15AC00C8D519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2222D4F207B15AC00C8D519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2222D52207B15AC00C8D519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2222D54207B15AC00C8D519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22F2B84207BADC9006B8595 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		B22F2B86207BAE67006B8595 /* Silver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Silver.swift; sourceTree = "<group>"; };
+		B250832A20829CB40021CBE5 /* Gold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gold.swift; sourceTree = "<group>"; };
+		B27A7997207B53AB000445E2 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2222D42207B15AC00C8D519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F582E630B9874DB7940C8D4F /* Pods_Kitapp2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4A94C88E6D9B2776DD4BD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BF1E6312828748F4E45B983 /* Pods_Kitapp2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F50DFD75CB14D69B25CCFD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0E285057BABBC7076EDC086 /* Pods-Kitapp2.debug.xcconfig */,
+				7F073F5572EE78E71AE62FF1 /* Pods-Kitapp2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2222D3C207B15AC00C8D519 = {
+			isa = PBXGroup;
+			children = (
+				B2222D47207B15AC00C8D519 /* Kitapp2 */,
+				B2222D46207B15AC00C8D519 /* Products */,
+				6F50DFD75CB14D69B25CCFD0 /* Pods */,
+				4F4A94C88E6D9B2776DD4BD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2222D46207B15AC00C8D519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2222D45207B15AC00C8D519 /* Kitapp2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2222D47207B15AC00C8D519 /* Kitapp2 */ = {
+			isa = PBXGroup;
+			children = (
+				B2222D48207B15AC00C8D519 /* AppDelegate.swift */,
+				B2222D4A207B15AC00C8D519 /* Bronze.swift */,
+				B27A7997207B53AB000445E2 /* BookTableViewCell.swift */,
+				B22F2B86207BAE67006B8595 /* Silver.swift */,
+				B22F2B84207BADC9006B8595 /* BookDetailsViewController.swift */,
+				B250832A20829CB40021CBE5 /* Gold.swift */,
+				B2222D4C207B15AC00C8D519 /* Main.storyboard */,
+				B2222D4F207B15AC00C8D519 /* Assets.xcassets */,
+				B2222D51207B15AC00C8D519 /* LaunchScreen.storyboard */,
+				B2222D54207B15AC00C8D519 /* Info.plist */,
+			);
+			path = Kitapp2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2222D44207B15AC00C8D519 /* Kitapp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2222D57207B15AC00C8D519 /* Build configuration list for PBXNativeTarget "Kitapp2" */;
+			buildPhases = (
+				D8D0D33A8902D9D52E6DCFF4 /* [CP] Check Pods Manifest.lock */,
+				B2222D41207B15AC00C8D519 /* Sources */,
+				B2222D42207B15AC00C8D519 /* Frameworks */,
+				B2222D43207B15AC00C8D519 /* Resources */,
+				131E4768355D5B3C90BCD3AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kitapp2;
+			productName = Kitapp2;
+			productReference = B2222D45207B15AC00C8D519 /* Kitapp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2222D3D207B15AC00C8D519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Quellebis;
+				TargetAttributes = {
+					B2222D44207B15AC00C8D519 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J36M7YT83S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2222D40207B15AC00C8D519 /* Build configuration list for PBXProject "Kitapp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2222D3C207B15AC00C8D519;
+			productRefGroup = B2222D46207B15AC00C8D519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2222D44207B15AC00C8D519 /* Kitapp2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2222D43207B15AC00C8D519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2222D53207B15AC00C8D519 /* LaunchScreen.storyboard in Resources */,
+				B2222D50207B15AC00C8D519 /* Assets.xcassets in Resources */,
+				B2222D4E207B15AC00C8D519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131E4768355D5B3C90BCD3AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kitapp2/Pods-Kitapp2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitapp2/Pods-Kitapp2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8D0D33A8902D9D52E6DCFF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kitapp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2222D41207B15AC00C8D519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2222D4B207B15AC00C8D519 /* Bronze.swift in Sources */,
+				B22F2B87207BAE67006B8595 /* Silver.swift in Sources */,
+				B27A7998207B53AB000445E2 /* BookTableViewCell.swift in Sources */,
+				B250832B20829CB40021CBE5 /* Gold.swift in Sources */,
+				B22F2B85207BADC9006B8595 /* BookDetailsViewController.swift in Sources */,
+				B2222D49207B15AC00C8D519 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2222D4C207B15AC00C8D519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2222D4D207B15AC00C8D519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2222D51207B15AC00C8D519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2222D52207B15AC00C8D519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2222D55207B15AC00C8D519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2222D56207B15AC00C8D519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2222D58207B15AC00C8D519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E285057BABBC7076EDC086 /* Pods-Kitapp2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J36M7YT83S;
+				INFOPLIST_FILE = Kitapp2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quellebis.Kitapp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2222D59207B15AC00C8D519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F073F5572EE78E71AE62FF1 /* Pods-Kitapp2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J36M7YT83S;
+				INFOPLIST_FILE = Kitapp2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quellebis.Kitapp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2222D40207B15AC00C8D519 /* Build configuration list for PBXProject "Kitapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2222D55207B15AC00C8D519 /* Debug */,
+				B2222D56207B15AC00C8D519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2222D57207B15AC00C8D519 /* Build configuration list for PBXNativeTarget "Kitapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2222D58207B15AC00C8D519 /* Debug */,
+				B2222D59207B15AC00C8D519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2222D3D207B15AC00C8D519 /* Project object */;
+}
